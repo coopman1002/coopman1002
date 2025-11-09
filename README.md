@@ -72,7 +72,7 @@ Built and maintained **RHEL UBI-based OCI containers** for internal tools and ST
 
 ## 🚀 Let's Connect
 
-💼 [LinkedIn](https://www.linkedin.com/in/mikecoopman)  
+💼 [LinkedIn]www.linkedin.com/in/michael-coopman  
 📧 **coopmanm.adm [at] gmail [dot] com**  
 📂 [GitHub Projects](https://github.com/mikecoopman)
 

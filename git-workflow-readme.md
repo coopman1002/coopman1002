@@ -1,3 +1,5 @@
+
+
 # Git Workflow for Safe Changes and GitHub Pushes
 
 Author: Mike Coopman  
@@ -275,3 +277,69 @@ This is not required when using Git correctly, but can give peace of mind.
    ```
 
 With this workflow, you can **experiment freely** while always having a clean, original baseline to return to.
+
+
+---
+
+## 10. Branch Workflow – Merging Test to Main
+
+Follow this workflow to merge updates from your testing branch into `main`.
+
+### 1️⃣ Check Your Current Branch
+```bash
+git status
+```
+If not on `test`, switch to it:
+```bash
+git checkout test
+```
+
+### 2️⃣ Update the Test Branch
+```bash
+git pull origin test
+```
+
+### 3️⃣ Switch to Main
+```bash
+git checkout main
+git pull origin main
+```
+
+### 4️⃣ Merge Test into Main
+```bash
+git merge test
+```
+
+- If there are **no conflicts**, you’ll see a success message.
+- If there **are conflicts**, run:
+  ```bash
+  git status
+  ```
+  Then manually fix files, add them, and commit:
+  ```bash
+  git add .
+  git commit
+  ```
+
+### 5️⃣ Push the Updated Main Branch
+```bash
+git push origin main
+```
+
+### 6️⃣ (Optional) Clean Up
+After confirming your changes:
+```bash
+git branch -d test
+git push origin --delete test
+```
+
+### ✅ Quick Reference Table
+
+| Step | Command | Purpose |
+|------|----------|----------|
+| 1 | `git checkout test` | Switch to test branch |
+| 2 | `git pull origin test` | Update local test branch |
+| 3 | `git checkout main` | Switch to main branch |
+| 4 | `git merge test` | Merge changes into main |
+| 5 | `git push origin main` | Push to remote main |
+| 6 | `git branch -d test` | Delete test branch locally |

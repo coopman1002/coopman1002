@@ -1,17 +1,20 @@
 # 👋 Hi, I'm Mike Coopman
 
-I'm a **Systems Security Engineer & ISSO** passionate about building secure, automated, and scalable infrastructure.  
+I'm a **Systems Security Engineer (SSE) & DevSecOps practitioner** passionate about building secure, automated, and scalable infrastructure.  
 I focus on **RHEL hardening, compliance automation, continuous monitoring, and infrastructure-as-code** — blending security and operations into repeatable workflows.
 
 ---
 
 ## 🧠 What I Do
 
-- 🛡️ Implement **NIST 800-53** and **DISA STIG** compliance automation with Ansible, Bash, and PowerShell.  
-- 📊 Architect and deploy **distributed Splunk environments** for continuous monitoring and event correlation.  
-- 🧰 Build and manage **containerized applications** with **Podman**, **Docker**, and **Kubernetes** (including Minikube and OpenShift).  
-- 🧾 Develop **compliance dashboards and POA&M workflows** integrated with JIRA and Confluence.  
-- 🧩 Design **high-availability infrastructure** using Hyper-V, vSphere, and hybrid warm-site failover solutions.
+- 🛡️ As an **ISO and System Security Engineer (SSE)**, I implement and manage **NIST 800-53 controls** and perform system hardening.  
+- 🧾 Develop and maintain **security authorization packages** supporting **Authority to Operate (ATO)** and **eMASS** compliance documentation.  
+- ⚙️ Perform **SecOps** and **Shift-Left Security Operations**, integrating security into every stage of development.  
+- 🧰 Build and manage **containers** using **Podman** and **Docker**, focusing on secure baselines and OCI compliance.  
+- 📊 Design **Splunk dashboards** that automate **NIST 800-53 control checks** for continuous monitoring and compliance reporting.  
+- 🧾 Use the **Atlassian suite (JIRA, Confluence, Bitbucket, Artifactory)** for version control, collaboration, and workflow automation.  
+- 💻 Develop automation scripts in **Ansible, PowerShell, and Bash** to streamline STIG and SCAP compliance.  
+- 🏃‍♂️ In my free time, I enjoy running, spending time with family, and watching my daughter play soccer and gymnastics at Dayton Christian.
 
 ---
 
@@ -38,13 +41,13 @@ Built and maintained **RHEL UBI-based OCI containers** for internal tools and ST
 
 | Area | Tools & Platforms |
 |------|--------------------|
-| **Operating Systems** | RHEL 8/9, Windows Server 2019/2022 |
-| **Automation** | Ansible, PowerShell, Bash, Terraform |
-| **Containers** | Podman, Docker, Kubernetes, OpenShift |
-| **Logging & SIEM** | Splunk, SC4S, Syslog-NG |
+| **Operating Systems** | RHEL 8/9, Windows 11, Windows Server 2019/2022 |
+| **Automation** | Ansible, PowerShell, Bash |
+| **Containers** | Podman, Docker, Kubernetes |
+| **SIEM Systems** | Splunk, SC4S, Syslog-NG |
 | **Virtualization** | vSphere/ESXi, Hyper-V, VRTX |
-| **Compliance** | STIG, SCAP, RMF, NIST 800-53 |
-| **Dev Tools** | Git, GitHub, Bitbucket, JIRA, Confluence |
+| **Compliance** | STIG, SCAP, SCC, STIG Viewer, ACAS, Nessus |
+| **Dev Tools** | Git, GitHub, Bitbucket, JIRA, Confluence, Artifactory |
 
 ---
 
@@ -63,17 +66,16 @@ Built and maintained **RHEL UBI-based OCI containers** for internal tools and ST
 
 ## 📚 Currently Learning
 
-- Advanced **Ansible roles and collections**
-- **Splunk orchestration** with Terraform
-- **OpenShift multi-tenant management**
-- **Cloud security automation** (Azure / AWS)
+- **Risk Management Framework (RMF)**
+- **Splunk administration and automation**
+- **Advanced Ansible roles and collections**
 
 ---
 
 ## 🚀 Let's Connect
 
-💼 [LinkedIn]www.linkedin.com/in/michael-coopman  
-📧 **coopmanm1002 [at] gmail [dot] com**  
+💼 [LinkedIn](https://www.linkedin.com/in/mikecoopman)  
+📧 **coopmanm.adm [at] gmail [dot] com**  
 📂 [GitHub Projects](https://github.com/mikecoopman)
 
 ---

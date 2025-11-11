@@ -222,6 +222,25 @@ This unstages the last commit but keeps changes.
 
 ---
 
+## 🔍 Retroactive Tagging
+If you already merged and want to tag the previous baseline:
+```bash
+git log --oneline
+```
+Identify the commit before the merge, then tag it:
+```bash
+git tag -a baseline-rel-stig-v1 -m "Baseline before ansible-rhel-hardening-test merge" <commit-id>
+git push origin baseline-rel-stig-v1
+```
+Or simply:
+```bash
+git tag -a baseline-rel-stig-v1 -m "Baseline before merge" HEAD~1
+git push origin baseline-rel-stig-v1
+```
+
+---
+
+
 ## 🗺️ 10. Visual Workflow (ASCII)
 ```
      +-----------------+
